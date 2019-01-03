@@ -99,3 +99,11 @@ body{
 	font-size: 28px;
 	color: #ff8000;
 }
+.wishes p{
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding: 10px 5px;
+}
+.wishes .bgs-wishes{
+	margin: 10px auto;
+}
