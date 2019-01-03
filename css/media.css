@@ -11,10 +11,12 @@
 	.top-section{
 		padding: 140px 15px;
 	}
-
 	.top-section .minimal{
 		width: 70%;
 	}
+	.zubi{
+	top: 160px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -102,7 +104,13 @@
 		font-size: 12px;
 	}
 	.wishes span{
-	font-size: 22px;
+		font-size: 22px;
+	}
+	.nashi-poslugu span{
+		font-size: 22px;
+	}
+	.zubi{
+	display: none;
 }
 }
 

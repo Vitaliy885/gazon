@@ -90,9 +90,65 @@ body{
 .top-section .minimal .option p{
 	font-size: 16px;
 }
-.wishes{
+.get-more{
+	position: relative;
+	z-index: 9999;
+	color: #fff;
+	letter-spacing: 2px;
+	background-color: red;	
+	font-size: 16px;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	transition: all ease-in-out 0.2s;
+}
+.get-more:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #ef3232;	
+}
+.nashi-poslugu{
 	padding: 50px 15px;
 	text-align: center;
+}
+.nashi-poslugu h2{
+	padding-bottom: 20px;
+}
+.nashi-poslugu .title-poslugu{
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+.nashi-poslugu .col-md-4 h3{	
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: #ff8000;
+}
+.nashi-poslugu .col-md-4 p{
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding: 10px 5px;
+}
+.nashi-poslugu span{
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #ff8000;
+}
+.nashi-poslugu img{
+	height: 250px;
+	margin: 0 auto;
+	border: 1px solid green;
+	border-radius: 50%;
+	padding: 7px;
+	box-shadow: 0 0 5px #000;
+}
+.wishes{
+	padding: 0 15px;
+	text-align: center;
+}
+.wishes h2{
+	padding-bottom: 20px;
 }
 .wishes span{
 	text-transform: uppercase;
@@ -106,4 +162,12 @@ body{
 }
 .wishes .bgs-wishes{
 	margin: 10px auto;
+}
+.zubi{
+	position: relative;
+	height: 40px;
+	left: 0;
+	top: 150px;
+	width: 100%;
+	z-index: 9999;
 }
