@@ -1,11 +1,15 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+.top-line{
+	background-color: #fff;
+	height: 50px;
+}
 .top-logo{
 	height: 110px;
 	position: absolute;
 	z-index: 9999;
-	top: 5%;
+	top: -5%;
 	left: 12%;
 	transform: translate(-50%);
 }
@@ -33,10 +37,14 @@ body{
 }
 .top-section h1,h2{
 	z-index: 9999;
-	color: #fff;
+	color: green;
 	position: relative;
 	letter-spacing: 2px;
-	text-shadow: 2px 2px #000;
+	text-shadow: 1px 1px #000;
+}
+.top-section span{
+	padding: 10px 25px;
+	background-color: #fff;
 }
 .top-section h1{
 	font-size: 56px;
@@ -45,6 +53,40 @@ body{
 }
 .top-section h2{
 	font-size: 36px;
+}
+.top-section .minimal{
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+	background-color: #ff8000;
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	line-height: 0.3;
+}
+.triangle-up{
+	height: 0;
+	width: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid #ff8000;
+	position: relative;
+	top: -30px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.top-section .minimal p{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+.top-section .minimal .option{
+	display: inline-block;
+	margin: 0 30px;
+}
+.top-section .minimal .option p{
+	font-size: 16px;
 }
 .wishes{
 	padding: 50px 15px;

@@ -8,7 +8,13 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width : 991px) {
-	
+	.top-section{
+		padding: 140px 15px;
+	}
+
+	.top-section .minimal{
+		width: 70%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -53,7 +59,7 @@
 
 @media only screen and (max-width: 768px){
 	.top-logo{
-		top: 2%;
+		top: -5%;
 		left: 50%;
 	}
 }
@@ -70,6 +76,30 @@
 @media only screen and (max-width: 425px){
 	.top-logo{
 		height: 90px;
+	}
+	.top-section{
+		padding: 100px 15px;
+	}
+
+	.top-section h1{
+		font-size: 46px;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.top-section h2{
+		font-size: 26px;
+	}
+	.top-section span{
+		padding: 0;
+	}
+	.top-section .minimal{
+		width: 100%;
+	}
+	.top-section .minimal p{
+		font-size: 14px;
+	}
+	.top-section .minimal .option p{
+		font-size: 12px;
 	}
 }
 
@@ -128,7 +158,15 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.top-section .minimal{
+		width: 100%;
+	}
+	.top-section .minimal p{
+		font-size: 14px;
+	}
+	.top-section .minimal .option p{
+		font-size: 12px;
+	}
 
 }
 
@@ -137,10 +175,6 @@
 	
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 320px) {
-	
-}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
