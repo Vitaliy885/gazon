@@ -199,21 +199,18 @@ body{
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 2px 2px #000;
+	letter-spacing: 0.5px;
 }
 .order-consultion p{
 	font-size: 18px;
 	color: #fff;
 	text-shadow: 2px 2px #000;
+	letter-spacing: 0.5px;
 }
 .order-consultion hr{
 	color: #fff;
 }
-.order-consultion input{
-	display: block;
-	margin: 20px auto;
-	position: relative;
-	z-index: 9999;
-}
+
 .text{
 	background-color: transparent;
 	border: 2px solid #fff;
@@ -239,6 +236,7 @@ body{
 	margin-top: 85px;
 	transition: all ease-in-out 0.2s;
 	font-size: 14px;
+	letter-spacing: 0.5px;
 }
 .btn-submit:hover{
 	text-decoration: none;
@@ -275,4 +273,102 @@ body{
 }
 .swiper-container2{
 	display: none;
+}
+.znushka{
+	background-color: #225328;
+	text-align: center;
+	padding: 20px 10px 50px 10px;
+}
+.znushka h1{
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #000;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+.znushka a{
+	background-color: red;
+	color: #fff;
+	letter-spacing: 1px;
+	padding: 15px 25px;
+	font-weight: 600;
+	transition: all ease-in-out 0.2s;
+}
+.znushka a:hover{
+	text-decoration: none;
+	box-shadow: 5px 5px 0 #fff;
+}
+.znamu-vugidno{
+	padding: 30px 15px;
+	text-align: center;
+}
+.znamu-vugidno span{
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #ff8000;
+}
+.znamu-vugidno img{
+	height: 150px;
+	margin: 0 auto;
+}
+.znamu-vugidno h2{
+	color: #ff8000;
+	letter-spacing: 0.5px;
+}
+.znamu-vugidno p{
+	letter-spacing: 0.5px;
+	font-size: 16px;
+}
+.blok-form-vidpravlennia{
+	padding: 30px 15px;
+	text-align: center;
+	background-image: url(../img/lawn_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 50px 15px;
+	position: relative;
+}
+.blok-form-vidpravlennia h1{
+	color: #ff8000;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
+	font-size: 32px;
+}
+.blok-form-vidpravlennia .col-md-6 h2{
+	color: #fff;
+	text-align: left;
+}
+#form input{
+	display: block;
+	margin: 20px auto;
+	padding: 20px 25px;
+	width: 100%;
+	outline: none;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+.btn-order-gazon{
+	font-size: 18px;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	background-color: red;
+	outline: none;
+	color: #fff;
+	border: 2px solid red;
+	letter-spacing: 1px;
+	transition: all ease-in-out 0.2s;
+	font-weight: 600;
+}
+.btn-order-gazon:hover{
+	background-color: red;
+	color: #fff;
+	border: 2px solid red;
+		box-shadow: 5px 5px 0 #fff;
 }
