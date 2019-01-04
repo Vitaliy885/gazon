@@ -26,6 +26,31 @@
 	<!-- Link Swiper's CSS -->
 	<link rel="stylesheet" href="libs/dist/css/swiper.min.css">
 
+	<style>
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+	</style>
+
 </head>
 <body >
 	<div class="top-line"></div>
@@ -89,6 +114,64 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="nashi-projects">
+		<div class="container">
+			<h2>
+				<i class="fa fa-paragraph fa-2x" aria-hidden="true"></i>
+				<span>наші проекти</span>
+			</h2>
+
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="img/gason/35820153_1828853494075434_4355293440271974400_n.jpg" class="img-responsive" data-lightbox="image-1">
+							<img src="img/gason/35820153_1828853494075434_4355293440271974400_n.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/35895382_1828853430742107_331863498667589632_n.jpg" class="img-responsive" data-lightbox="image-1">
+							<img src="img/gason/35895382_1828853430742107_331863498667589632_n.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/42142800_1900812006879582_5471279905465434112_n.jpg" class="img-responsive" data-lightbox="image-1">
+							<img src="img/gason/42142800_1900812006879582_5471279905465434112_n.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/df.jpg" data-lightbox="image-1">
+							<img src="img/gason/df.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/fsdbs.jpg" data-lightbox="image-1">
+							<img src="img/gason/fsdbs.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/imgonline-com-ua-Resize-dLkirc0X6b.jpg" data-lightbox="image-1">
+							<img src="img/gason/imgonline-com-ua-Resize-dLkirc0X6b.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/imgonline-com-ua-Resize-s6IJKaLNZwF.jpg" data-lightbox="image-1">
+							<img src="img/gason/imgonline-com-ua-Resize-s6IJKaLNZwF.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="img/gason/imgonline-com-ua-Resize-v85QTEXEVa.jpg" data-lightbox="image-1">
+							<img src="img/gason/imgonline-com-ua-Resize-v85QTEXEVa.jpg" class="img-responsive" alt="">
+						</a>
+					</div>			
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>	
+
 	</div>
 
 	<div class="chomu-same-mu">
@@ -184,6 +267,20 @@
 
 
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<!-- Swiper JS -->
+	<script src="libs/dist/js/swiper.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+		});
+	</script>
 	<script src="js/function.js"></script>
 	<script src="js/common.js"></script>
 	<script src="libs/dist/js/swiper.min.js"></script>

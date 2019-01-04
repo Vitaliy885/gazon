@@ -271,3 +271,15 @@ body{
 	letter-spacing: 0.5px;
 	padding: 10px 5px;
 }
+.nashi-projects{
+	padding: 30px 15px;
+	text-align: center;
+}
+.nashi-projects h2{
+	padding: 0 0 40px 0;
+}
+.nashi-projects span{
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #ff8000;
+}
