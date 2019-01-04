@@ -146,6 +146,12 @@
 	.swiper-container2{
 		display: block;
 	}
+	.blok-form-vidpravlennia h1{
+		font-size: 26px;
+	}
+	.blok-form-vidpravlennia .col-md-6 h2{
+		font-size: 22px;
+	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {	
