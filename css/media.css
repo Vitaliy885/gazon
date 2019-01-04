@@ -140,7 +140,12 @@
 	.order-consultion:before{
 		height: 700px;
 	}
-	
+	.swiper-container{
+		display: none;
+	}
+	.swiper-container2{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {	
