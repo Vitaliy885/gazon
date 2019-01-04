@@ -15,8 +15,7 @@ body{
 }
 
 .top-section{
-	background-image: url(../img/gason/lawn_1.jpg);
-	-webkit-background-image: url(../img/gason/lawn_1.jpg);
+	background-image: url(../img/gason/lawn_2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -25,17 +24,7 @@ body{
 	padding: 130px 15px;
 	position: relative;
 }
-.top-section:before{
-	position: absolute;
-	content: '';
-	background-color: #000;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0.5;
-}
+
 .top-section h1,h2{
 	z-index: 9999;
 	color: green;
