@@ -15,16 +15,11 @@
 		width: 70%;
 	}
 	.zubi{
-	top: 160px;
-}
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
+		top: 160px;
+	}
 }
 
-}
+
 
 
 
@@ -64,13 +59,37 @@
 		top: -5%;
 		left: 50%;
 	}
+	.nashi-poslugu .col-md-4{
+		margin-top: 30px;
+	}
+	.btn-submit{
+		display: block;
+		margin: 0 auto;
+	}
+	.order-consultion{
+		height: 465px;
+	}
+	.order-consultion:before{
+		height: 465px;
+	}
+	.btn-submit{
+		margin-top: 0 !important;
+	}
+	.order-consultion{
+		padding: 90px 20px !important;
+	}
 }
 @media only screen and (max-width: 375px){
 	
 	
 }
 @media only screen and (max-width: 1024px){
-
+	.order-consultion{
+		padding: 75px 20px;
+	}
+	.btn-submit{
+		margin-top: 80px;
+	}
 }
 @media only screen and (max-width: 685px){
 
@@ -110,23 +129,43 @@
 		font-size: 22px;
 	}
 	.zubi{
-	display: none;
-}
+		display: none;
+	}
+	.nashi-poslugu .col-md-4{
+		margin-top: 50px;
+	}
+	.order-consultion{
+		height: 700px;
+	}
+	.order-consultion:before{
+		height: 700px;
+	}
+	
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {	
 
 }
 
-@media screen and (max-width: 425px) and (min-width: 425px) {
-	
+@media screen and (max-width: 375px) and (min-width: 375px) {
+	.order-consultion{
+		height: 625px !important;
+	}
+	.order-consultion:before{
+		height: 625px !important;
+	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px){
 	
 }
 @media screen and (max-width: 425px) and (min-width: 375px){
-
+	.order-consultion{
+		height: 565px;
+	}
+	.order-consultion:before{
+		height: 565px;
+	}
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
 }
@@ -178,7 +217,12 @@
 	.top-section .minimal .option p{
 		font-size: 12px;
 	}
-
+	.order-consultion{
+		height: 610px;
+	}
+	.order-consultion:before{
+		height: 610px;
+	}
 }
 
 /* Extra Small Devices, Phones */
